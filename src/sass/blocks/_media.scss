@@ -50,6 +50,12 @@
             margin-top: 50px;
         }
     }
+    .carousel {
+        &__inner {
+            width: 570px;
+        }
+ 
+    } 
     
 }
 
@@ -113,4 +119,25 @@
         }
             
     }
+    .carousel {
+        &__inner {
+            width: 310px;
+            .slick-active {
+                width: 310px;
+ 
+            }
+            img {
+                width: 100%;
+            }
+            .slick-slide {
+                width: 310px;
+            }
+            
+        }
+        .slick-track {
+            height: 250px;
+        } 
+ 
+    }
+
 }

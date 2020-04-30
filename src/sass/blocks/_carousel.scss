@@ -28,14 +28,15 @@
         padding: 0;
         justify-content: center;
         text-align: center;
+        margin: 0 auto;
         
 
         li {
             width: 20px;
             height: 20px;
             margin-right:25px; 
-            padding: 5px;
             button {
+                margin: 0;
                 border: none;
                 cursor: pointer;
                 color: transparent;
@@ -43,6 +44,8 @@
                 border-radius: 4px;
                 background-color: black;
                 opacity: .10;
+                width: 20px;
+                height: 20px;
 
             }
            

@@ -1,0 +1,35 @@
+.feedback {
+    padding-bottom: 71px;
+    margin: 0 auto;
+    &__item {
+        display: flex;
+        margin-bottom: 102px;
+        &:nth-child(3) {
+            margin-bottom: 0;
+        }
+
+    }
+    &__img {
+        width: 231px;
+        height: 169px;
+        padding-right: 62px;
+    }
+    &__name {
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        line-height: 18px;
+    }
+    &__success {
+        color: #646464;
+        font-size: 14px;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+    &__text {
+        color: #0d0d0d;
+        font-size: 16px;
+        font-weight: 300;
+    }
+}

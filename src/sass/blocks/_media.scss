@@ -14,6 +14,18 @@
     .feed-form {
         align-items: center;
     }
+    .catalog {
+        &__content {
+            margin-top: 40px;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            &_active {
+                display: flex;
+            }
+            
+        }
+    }
+    
 
 }
 @media(max-width: 767px) {
@@ -42,6 +54,11 @@
             width: 300px;
             height: 50px;
         }
+        &_mini {
+            width: 131px;
+            height: 40px;
+            font-size: 14px;
+        }
     }
     .promo {
         &__wrapper {
@@ -54,8 +71,31 @@
         &__inner {
             width: 570px;
         }
- 
+        img {
+            width: 100%;
+        }
+        .slick-slide {
+            width: 570px;
+        }
+        
+    }
+    .slick-track {
+        height: 500px;
     } 
+    
+    .catalog {
+        &__tabs {
+            margin-top: 50px;
+        }
+        &__tab {
+            width: 200px;
+            height: 40px;
+            font-size: 16px;
+            line-height: 40px;
+        }
+    }
+ 
+     
     
 }
 
@@ -92,6 +132,11 @@
         &_submit {
             width: 300px;
             height: 50px;
+        }
+        &_mini {
+            width: 131px;
+            height: 40px;
+            font-size: 14px;
         }
     }
     .header {
@@ -139,5 +184,45 @@
         } 
  
     }
+    .catalog {
+        &__tabs {
+            margin-top: 30px;
+        }
+        &__tab {
+            width: 115px;
+            height: 30px;
+            font-size: 9px;
+            line-height: 30px;
+        }
+    }
+    .feedback {
+        padding-bottom: 31px;
+        &__item {
+            flex-direction: column;
+            margin-bottom: 50px;
+        }
+        &__name, &__success  {
+            text-align: center;
+        }
+
+        &__text {
+            font-size: 13px;
+        }
+        &__img {
+            display: block;
+            margin: 0 auto;
+            padding: 0;
+            width: 169px;
+            margin-bottom: 35px;
+        }
+        &__text {
+            text-align: justify;
+        }
+    }
+    
+
 
 }
+
+
+

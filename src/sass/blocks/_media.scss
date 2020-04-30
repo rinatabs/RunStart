@@ -44,12 +44,21 @@
     .button {
         width: 150px;
         height: 30px;
+        
+        &:hover {
+            box-shadow: none;
+            background-color: $main-color;
+            color: #fff;
+            outline: none;
+            
+        }
         &_main {
             margin-top: 67px;
             width: 300px;
             height: 50px;
             font-size: 16px;
         }
+        
         &_submit {
             width: 300px;
             height: 50px;
@@ -92,6 +101,13 @@
             height: 40px;
             font-size: 16px;
             line-height: 40px;
+        }
+    }
+    .footer {
+        &__social-item {
+            &:hover {
+                box-shadow: none;
+            }
         }
     }
  
@@ -212,13 +228,41 @@
             display: block;
             margin: 0 auto;
             padding: 0;
-            width: 169px;
+            min-width: 169px;
             margin-bottom: 35px;
         }
         &__text {
             text-align: justify;
+            
         }
     }
+
+    .footer {
+        &__info {
+            width: 310px;
+            height: 220px;
+            padding: 25px 30px 30px 30px;
+        }
+    }
+    .overlay {
+        height: calc(100% + 30px);
+    }
+    .modal {
+        width: 270px;
+        left: 45%;
+    }
+    
+    .feed-form {
+        &_mt25 {
+            input {
+                width: 230px;
+            }
+            .button_submit {
+                width: 230px;
+            }
+        }
+    }
+
     
 
 
